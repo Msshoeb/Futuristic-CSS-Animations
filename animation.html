@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Animation</title>
+    <!-- Include Font Awesome CSS (you can also use a CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Define the animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Style the icon */
+        .icon {
+            font-size: 48px;
+            color: #007bff;
+            animation: spin 2s linear infinite; /* Apply the animation */
+        }
+    </style>
+</head>
+<body>
+    <!-- Icon element with animation class -->
+    <i class="fas fa-spinner icon"></i>
+</body>
+</html>
